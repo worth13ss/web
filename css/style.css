@@ -24,7 +24,6 @@ body{
     background-color: rgb(196, 222, 238);
     padding-right: px;
     height: 140px;
-    margin-left: ;
 }
 .h1{
     text-align: center;
@@ -82,7 +81,6 @@ footer{
     background-color: rgb(196, 222, 238);
     padding-right: px;
     height: 150px;
-    margin-left: ;
 }
 .itemmenubottom{
     padding-top: 10px;
@@ -140,10 +138,34 @@ footer{
     text-align: center;
     font-size: 20px;
 }
-menu {
-    background-color: #999;
-    display: none;
+.menu{
+    position: relative;
 }
-.menu.active{
+.menu__button{
+    z-index: 3;
+}
+.drop-menu{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    bottom: -170px;
+    box-shadow: 10px 10px 19px rgba(0, 0, 0, 0.1); 
+	-webkit-box-shadow: 10px 10px 19px rgba(0, 0, 0, 0.1); 
+	-moz-box-shadow: 10px 10px 19px rgba(0, 0, 0, 0.1); 
+}
+.drop-menu.active{
     display: block;
+}
+.drop-menu__list{
+    padding: 0;
+}
+.drop-menu__item{
+    padding: 5px 0;
+    list-style: none;
+}
+.drop-menu__link{
+    text-decoration: none;
+    color: #000;
 }
