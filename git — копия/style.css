@@ -1,0 +1,149 @@
+/* *{
+    box-sizing: border-box;
+} */
+body{
+    margin: 0px;
+}
+.image{
+        width: 65%;
+        /* display: flex;
+        justify-content: center; */
+        align-items: center;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        padding: 15px 0 15px 0;
+}
+.container{
+    max-width: 900px;
+    margin: auto;
+    padding: 0;
+    align-items: center;
+}
+.header{
+    background-color: rgb(196, 222, 238);
+    padding-right: px;
+    height: 140px;
+    margin-left: ;
+}
+.h1{
+    text-align: center;
+    font-size: 45px;
+}
+.headpage{
+    text-decoration: none;
+    font-size: 260%;
+    margin-left: 80px;
+
+}
+.header_inner{
+    padding-top: 30px;
+    padding-right: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.listmenu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 150%;
+}
+.itemmenu{
+    text-decoration: none;
+    padding: 10px;
+    margin: auto;
+    font-size: 18px;
+}
+
+body{
+    margin: 0px
+}
+.boris{
+    padding: 27px 27px 27px 27px;
+    font-size: 25px;
+}
+.h2{
+    padding-left: 30px;
+    font-size: 37px;
+}
+.h3{
+    padding-left: 30px;
+    
+    font-size: 32px;
+    
+}
+.p{
+    padding: 0px 27px 27px 27px;
+    font-size: 24px;
+}
+
+footer{
+    background-color: rgb(196, 222, 238);
+    padding-right: px;
+    height: 150px;
+    margin-left: ;
+}
+.itemmenubottom{
+    padding-top: 10px;
+    padding-right: 35px;
+    display: flex;
+    justify-content: center;
+    margin: -10px;
+    
+}
+.listbottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 150%;
+    margin: 5px;
+}
+.menubottom{
+    margin: auto; 
+    
+}
+.pointBottom{
+    padding-top: 17px;
+    padding-right: 25px;
+    display: flex;
+    letter-spacing: 10px;
+    
+    
+}
+.audioP{
+    padding-left: 27px;
+    padding-top: 0px;
+    font-size: 14px;
+    color:dimgray
+    
+}
+.defPlayer{
+    padding: 0px 0px 0px 27px;
+}
+.footerBlock{
+    margin-right: auto;
+    width: 900px;
+    text-align: center;
+    margin: 0 0px 0 0;
+    padding: 0 0px 0 0;
+}
+.logo{
+    width: 60px;
+    padding: 0 100px 0 10px;
+    margin: 0 -90px 0 0;
+}
+.footerText{
+    padding: 20px 20px 0px 20px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+menu {
+    background-color: #999;
+    display: none;
+}
+.menu.active{
+    display: block;
+}
